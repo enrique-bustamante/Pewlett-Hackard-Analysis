@@ -1,2 +1,12 @@
 QDB_Diagrams_PH_Table.txt
-
+departments.csv
+dept_emp.csv
+dept_manager.csv
+employees.csv
+salaries.csv
+titles.csv
+retirement_info.csv
+current_emp.csv
+current_retirement_list.csv
+emp_info.csv
+dept_info.csv
