@@ -103,3 +103,4 @@ WHERE dept_name = 'Sales';
 SELECT *
 FROM dept_info
 WHERE dept_name IN ('Sales', 'Development');
+
