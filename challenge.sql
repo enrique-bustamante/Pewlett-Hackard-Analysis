@@ -36,9 +36,9 @@ FROM
 ORDER BY emp_no;
 
 --count of total titles
-SELECT COUNT(emp_no)
-INTO title_count
-FROM retirement_emp_title_list;
+SELECT COUNT(DISTINCT title)
+INTO count_titles
+FROM joined_emp_title_salary_info;
 
 --count of employees set for retirement by title
 SELECT title,
